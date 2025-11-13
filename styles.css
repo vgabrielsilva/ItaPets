@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     background-color: rgb(250, 221, 194);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Inter", Arial, sans-serif;
 }
 
 .layout {
@@ -31,7 +31,6 @@ header h1 {
     color: white;
     background-color: transparent;
     font-size: 40px;
-    font-family: 'Segoe UI';
     font-weight: 800;
     border: none;
     margin-left: 4%;
@@ -43,7 +42,6 @@ header a {
     color: white;
     text-decoration: none;
     font-size: 15px;
-    font-family: 'Segoe UI';
     font-weight: 800;
     padding: 8px 16px;
     border-radius: 5px;
@@ -65,7 +63,6 @@ main {
 main h1 {
     color: white;
     font-size: 80px;
-    font-family: 'Segoe UI';
     font-weight: 800;
     grid-row-start: 1;
     grid-row-end: 2;
@@ -112,7 +109,6 @@ article img {
 
 article h2 {
     color: black;
-    font-family: 'Segoe UI';
     font-size: x-large;
     font-weight: 400;
     background-color: transparent;
@@ -130,7 +126,6 @@ article h2 {
 
 article h3 {
     color: rgb(50, 159, 231);
-    font-family: 'Segoe UI';
     font-size: 25px;
     font-weight: 700;
     background-color: transparent;
@@ -156,7 +151,6 @@ footer {
     color: white;
     background-color: transparent;
     font-size: 15px;
-    font-family: 'Segoe UI';
     font-weight: 800;
     text-align: center;
     place-self: center;

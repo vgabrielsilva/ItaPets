@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Inter", Arial, sans-serif;
 }
 
 body {
@@ -29,7 +29,6 @@ header h1 {
     color: white;
     background-color: transparent;
     font-size: 40px;
-    font-family: 'Segoe UI';
     font-weight: 800;
 }
 
@@ -38,7 +37,6 @@ header a {
     color: white;
     text-decoration: none;
     font-size: 15px;
-    font-family: 'Segoe UI';
     font-weight: 800;
     padding: 8px 16px;
     border-radius: 5px;
@@ -95,7 +93,6 @@ main {
 
 .produto-info h2 {
     color: black;
-    font-family: 'Segoe UI';
     font-size: 32px;
     font-weight: 700;
     background-color: transparent;
@@ -103,7 +100,6 @@ main {
 
 .descricao {
     color: #333;
-    font-family: 'Segoe UI';
     font-size: 16px;
     line-height: 1.6;
     background-color: transparent;
@@ -111,7 +107,6 @@ main {
 
 .preco {
     color: rgb(50, 159, 231);
-    font-family: 'Segoe UI';
     font-size: 36px;
     font-weight: 700;
     background-color: transparent;
@@ -123,7 +118,6 @@ main {
     background-color: rgb(50, 159, 231);
     color: white;
     text-decoration: none;
-    font-family: 'Segoe UI';
     font-size: 16px;
     font-weight: 700;
     padding: 12px 24px;
@@ -151,7 +145,6 @@ footer {
     color: white;
     background-color: transparent;
     font-size: 15px;
-    font-family: 'Segoe UI';
     font-weight: 800;
     text-align: center;
 }
