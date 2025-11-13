@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     background-color: rgb(250, 221, 194);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, sans-serif;
 }
 
 .layout {
@@ -88,7 +90,7 @@ article {
     height: 400px;
     width: 300px;
     padding: 10px 0;
-    cursor: pointer;    
+    cursor: pointer;
 
     box-shadow: 12px 13px 31px -22px rgba(0, 0, 0, 0.42);
     -webkit-box-shadow: 12px 13px 31px -22px rgba(0, 0, 0, 0.42);
