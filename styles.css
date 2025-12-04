@@ -1,8 +1,11 @@
 * {
     padding: 0;
     margin: 0;
-    background-color: rgb(250, 221, 194);
     font-family: "Inter", Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(250, 221, 194);
 }
 
 .layout {
