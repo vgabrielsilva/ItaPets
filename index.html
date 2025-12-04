@@ -14,7 +14,12 @@
     <section class="layout">
         <header>
             <h1>ItaPets</h1>
-            <a href="contato.html">Contato</a>
+            <div class="d-flex align-items-center gap-3" style="margin-right: 4%;">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#modalMobile" class="d-none d-md-block text-nowrap"
+                    style="margin-right: 0;">Versão Mobile</a>
+
+                <a href="contato.html" style="margin-right: 0;">Contato</a>
+            </div>
         </header>
         <main>
             <h1>Produtos</h1>
@@ -151,6 +156,19 @@
         </footer>
     </section>
     <script src="carrinho.js"></script>
+    <div class="modal fade" id="modalMobile" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Aponte seu celular para o qr code</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="qr.webp" alt="QR Code" class="img-fluid" style="max-height: 300px; object-fit: contain;">
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
